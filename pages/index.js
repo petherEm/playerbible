@@ -78,7 +78,7 @@ export default function Home() {
                 DOB: <span className="font-normal">{data.dateBorn}</span>
               </li>
               <li className="text-xl font-bold">
-                Manager's name:{'&apos;'}
+                Manager's name:
                 <span className="font-normal">{data.strAgent}</span>
               </li>
               <li className="text-xl font-bold">
@@ -88,14 +88,14 @@ export default function Home() {
                 Weight: <span className="font-normal">{data.strWeight}</span>
               </li>
               <li className="text-xl font-bold">
-                Nationality:{" "}
+                Nationality:
                 <span className="font-normal">{data.strNationality}</span>
               </li>
               <li className="text-xl font-bold">
                 Foot: <span className="font-normal">{data.strSide}</span>
               </li>
               <li className="text-xl font-bold">
-                Position:{" "}
+                Position:
                 <span className="font-normal">{data.strPosition}</span>
               </li>
             </ul>

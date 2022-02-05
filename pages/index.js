@@ -78,7 +78,7 @@ export default function Home() {
                 DOB: <span className="font-normal">{data.dateBorn}</span>
               </li>
               <li className="text-xl font-bold">
-                Manager's name:{" "}
+                Manager's name:{'&apos;'}
                 <span className="font-normal">{data.strAgent}</span>
               </li>
               <li className="text-xl font-bold">
@@ -107,7 +107,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="h-20 w-full bg-blue-400 text-center">
         <h1 className="text-2xl mt-6">
-          Created by <a className="text-2xl font-bold cursor-pointer" href="https://www.piotrmaciejewski.com" target="_blank">Piotr</a>
+          Created by <a className="text-2xl font-bold cursor-pointer" href="https://www.piotrmaciejewski.com" target="_blank" rel="noreferrer">Piotr</a>
         </h1>
       </footer>
     </div>

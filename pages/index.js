@@ -29,6 +29,10 @@ export default function Home() {
 
   return (
     <div className="flex flex-col justify-center items-center">
+      <Head>
+        <title>Football Player's bible</title>
+        <link rel="shortcut_icon" href="/logo.ico" />
+      </Head>
       <div className="flex flex-col justify-center items-center bg-blue-400 lg:w-screen w-full lg:mx-auto lg:p-20 p-8">
         <h1 className="lg:text-[50px] text-[32px] text-gray-200 font-bold lg:w-1/2 mb-12">
           <span className="text-violet-800">The Ultimate</span> Football Players
@@ -100,15 +104,24 @@ export default function Home() {
               </li>
             </ul>
           </div>
-          
         </div>
       </div>
 
       {/* Footer */}
-      <footer className="h-20 w-full bg-blue-400 text-center">
-        <h1 className="text-2xl mt-6">
-          Created by <a className="text-2xl font-bold cursor-pointer" href="https://www.piotrmaciejewski.com" target="_blank" rel="noreferrer">Piotr</a>
-        </h1>
+      <footer className="h-20 w-full bg-blue-400">
+        <div className="text-2xl mt-6 flex items-center justify-center">
+          Created by{" "}
+          <a
+            className="text-2xl font-bold cursor-pointer"
+            href="https://www.piotrmaciejewski.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="">
+              <img src="logo.svg" alt="logo" className="w-14" />
+            </div>
+          </a>
+        </div>
       </footer>
     </div>
   );
